@@ -12,11 +12,25 @@
 #hero-secion .primary-color{
     color: var(--primary-color);
 }
-
-.section-padding{
-    padding: 50px 0 30px 0;
+.section-heading{
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
 }
-
+.section-para{
+    font-weight: 400;
+    text-align: left;
+}
+.container{
+    margin: 0 15%;
+    padding: 50px 30px;
+    
+}
+.container i{
+    margin-top: 10px;
+    padding: 0 6px;
+    color: var(--primary-color);
+}
 /*---------navigation-----------*/
 
 #navbar{
@@ -28,6 +42,7 @@
     padding: 25px 10px;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
+    font-weight: 300;
 }
 
 .navigation ul li{
@@ -58,4 +73,50 @@
     margin-top: 10px;
     font-weight: 300;
     font-size: 2rem;
+}
+#hero-secion i{
+    cursor: pointer;
+}
+
+/*---------about section-----------*/
+#about-section{
+    background-color: rgba(0, 0, 0, 0.055);
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------Fotter-------------*/
+#footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-top-right-radius: 20px;
+    color: #fff;
+}
+#footer-section p{
+    font-weight: 300;
+}
+#footer-section i{
+    cursor: pointer;
+    color: #fff;
+}
+#footer-section ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 10px;
 }
