@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+:root{
+    --primary-color: #6C63FF;
+}
+
+#hero-secion .primary-color{
+    color: var(--primary-color);
+}
