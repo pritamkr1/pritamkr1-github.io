@@ -120,7 +120,7 @@
    color: #fff;
 }
 
-blog-section .btn-explore{
+#blog-section .btn-explore{
     padding: 8px 25px;
     border: var(--primary-color) 0.5px solid;
     outline: 0;
@@ -128,15 +128,10 @@ blog-section .btn-explore{
     transition: 0.3s;
     cursor: pointer;
     margin-top: 10px;
+    text-decoration: none;
 }
 #blog-section .btn-explore:hover{
     background-color: var(--primary-color);
-}
-#blog-section .btn-explore a{
-    text-decoration: none;
-    color: var(--primary-color);
-}
-#blog-section .btn-explore a:hover{
     color: #fff;
 }
 
