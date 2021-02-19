@@ -14,12 +14,14 @@
 .timing{
     color: rgba(0, 0, 0, 0.363);
 }
-p{
+#reading-section p{
     margin-bottom: 10px;
+    color:rgba(0, 0, 0, 0.705);
 }
 ul li{
     list-style-type: none;
     padding-left: 10px;
+    color:rgba(0, 0, 0, 0.705);
 }
 .blog-img{
     width: 50vw;

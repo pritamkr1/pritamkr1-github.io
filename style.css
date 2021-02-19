@@ -42,6 +42,9 @@
 #Technologies-section, #blog-section{
     padding: 50px 0;
 }
+#navbar .brand-name h1{
+    font-weight: 300;
+}
 /*---------navigation-----------*/
 
 #navbar{
@@ -119,7 +122,6 @@
    transition: 0.3s;
    color: #fff;
 }
-
 #blog-section .btn-explore{
     padding: 8px 25px;
     border: var(--primary-color) 0.5px solid;
@@ -128,6 +130,7 @@
     transition: 0.3s;
     cursor: pointer;
     margin-top: 10px;
+    color: var(--primary-color);
     text-decoration: none;
 }
 #blog-section .btn-explore:hover{
