@@ -191,11 +191,28 @@
         padding: 50px 0 20px 0;
      }
      .hero-img{
-         width: 60%;
+         width: 65%;
      }
      #hero-section h1{
          margin-top: 10px;
          font-weight: 300;
          font-size: 1.6rem;
      }
+
+     .project-box{
+        display: grid;
+       grid-template-columns: repeat(1, minmax(100px, 1fr));
+        grid-template-rows: auto auto auto;
+        grid-row-gap: 10px;
+        margin: 0 1%;
+        text-align: center;
+        justify-content: space-around;
+        padding-top: 15px;
+        
+    }
+    .project-img{
+        width: 100%;
+        border-radius: 5px;
+        border: solid 0.5px rgba(0, 0, 0, 0.144);
+    }
 }
